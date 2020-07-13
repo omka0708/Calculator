@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#535353"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/numbers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="enter"
+        android:textAllCaps="false"
+        android:textColor="#BBBBBB"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:fontFamily="sans-serif" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/seven"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="#3D3D3D"
+                android:elevation="6dp"
+                android:stateListAnimator="@null"
+                android:text="7"
+                android:textColor="#BBBBBB"
+                android:textSize="36sp"
+                android:translationZ="4dp" />
+
+            <Button
+                android:id="@+id/eight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="#3D3D3D"
+                android:elevation="6dp"
+                android:stateListAnimator="@null"
+                android:text="8"
+                android:textColor="#BBBBBB"
+                android:textSize="36sp"
+                android:translationZ="4dp" />
+
+            <Button
+                android:id="@+id/nine"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="#3D3D3D"
+                android:elevation="6dp"
+                android:stateListAnimator="@null"
+                android:text="9"
+                android:textColor="#BBBBBB"
+                android:textSize="36sp"
+                android:translationZ="4dp" />
+
+            <Button
+                android:id="@+id/divide"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="#3D3D3D"
+                android:elevation="6dp"
+                android:stateListAnimator="@null"
+                android:text="/"
+                android:textColor="#BBBBBB"
+                android:textSize="36sp"
+                android:translationZ="4dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/four"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="#3D3D3D"
+                android:elevation="6dp"
+                android:stateListAnimator="@null"
+                android:text="4"
+                android:textColor="#BBBBBB"
+                android:textSize="36sp"
+                android:translationZ="4dp" />
+
+            <Button
+                android:id="@+id/five"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="#3D3D3D"
+                android:elevation="6dp"
+                android:stateListAnimator="@null"
+                android:text="5"
+                android:textColor="#BBBBBB"
+                android:textSize="36sp"
+                android:translationZ="4dp" />
+
+            <Button
+                android:id="@+id/six"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="#3D3D3D"
+                android:elevation="6dp"
+                android:stateListAnimator="@null"
+                android:text="6"
+                android:textColor="#BBBBBB"
+                android:textSize="36sp"
+                android:translationZ="4dp" />
+
+            <Button
+                android:id="@+id/multiply"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="#3D3D3D"
+                android:elevation="6dp"
+                android:stateListAnimator="@null"
+                android:text="x"
+                android:textColor="#BBBBBB"
+                android:textSize="36sp"
+                android:translationZ="4dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="#3D3D3D"
+                android:elevation="6dp"
+                android:stateListAnimator="@null"
+                android:text="1"
+                android:textColor="#BBBBBB"
+                android:textSize="36sp"
+                android:translationZ="4dp" />
+
+            <Button
+                android:id="@+id/two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="#3D3D3D"
+                android:elevation="6dp"
+                android:stateListAnimator="@null"
+                android:text="2"
+                android:textColor="#BBBBBB"
+                android:textSize="36sp"
+                android:translationZ="4dp" />
+
+            <Button
+                android:id="@+id/three"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="#3D3D3D"
+                android:elevation="6dp"
+                android:stateListAnimator="@null"
+                android:text="3"
+                android:textColor="#BBBBBB"
+                android:textSize="36sp"
+                android:translationZ="4dp" />
+
+            <Button
+                android:id="@+id/equal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="#3D3D3D"
+                android:elevation="6dp"
+                android:stateListAnimator="@null"
+                android:text="="
+                android:textColor="#BBBBBB"
+                android:textSize="36sp"
+                android:translationZ="4dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/zero"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="#3D3D3D"
+                android:elevation="6dp"
+                android:stateListAnimator="@null"
+                android:text="0"
+                android:textColor="#BBBBBB"
+                android:textSize="36sp"
+                android:translationZ="4dp" />
+
+            <Button
+                android:id="@+id/plus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="#3D3D3D"
+                android:elevation="6dp"
+                android:stateListAnimator="@null"
+                android:text="+"
+                android:textColor="#BBBBBB"
+                android:textSize="36sp"
+                android:translationZ="4dp" />
+
+            <Button
+                android:id="@+id/minus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="#3D3D3D"
+                android:elevation="6dp"
+                android:stateListAnimator="@null"
+                android:text="-"
+                android:textColor="#BBBBBB"
+                android:textSize="36sp"
+                android:translationZ="4dp" />
+
+            <Button
+                android:id="@+id/restart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="#3D3D3D"
+                android:elevation="6dp"
+                android:stateListAnimator="@null"
+                android:text="C"
+                android:textColor="#BBBBBB"
+                android:textSize="36sp"
+                android:translationZ="4dp" />
+
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
